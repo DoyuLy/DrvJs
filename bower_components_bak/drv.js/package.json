@@ -1,0 +1,56 @@
+{
+  "name": "drv.js",
+  "version": "0.1.2",
+  "description": "The Combined Type JavaScript MVVM / MVC / SPA Development Framework, Based on Director.js, Require.js and Vue.js.",
+  "main": "src/drv.js", //入口文件, 若没填写, 会默认查找index.js / index.node / index.json
+  "directories": {
+    "example": "examples",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mvvm",
+    "mvc",
+    "vue",
+    "javascript framework",
+    "framework",
+    "director",
+    "router",
+    "controller",
+    "require.js",
+    "webapp",
+    "drv.js",
+    "drv"
+  ],
+  "author": "Pandao",
+  "maintainers": [{"name": "duyo", "email": "duyud@qq.com", "web": "doyo.herokuapp.com"}],
+  "contributors": [{"name": "duyo", "email": "duyud@qq.com", "web": "doyo.herokuapp.com"}],
+  "license": "MIT",// [{"type": "MIT", "url": "xxx"}]
+  "bugs": {
+    "url": "https://github.com/pandao/drv.js/issues" //托管代码的位置列表
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pandao/drv.js.git"
+  },
+  "homepage": "https://github.com/pandao/drv.js", //当前包网站地址
+  "bin": "", //用于命令行工具   npm install xxx -g
+  "devDependencies": {  //包依赖项
+
+  },
+  "devDependencies": {  //开发时需要的的依赖, 提示使用此包的的开发者需要哪些依赖
+    "dateformatter": "^0.1.0",
+    "gulp": "^3.8.11",
+    "gulp-concat": "^2.4.2",
+    "gulp-header": "^1.2.2",
+    "gulp-jshint": "^1.9.0",
+    "gulp-notify": "^2.1.0",
+    "gulp-rename": "^1.2.0",
+    "gulp-replace": "^0.5.3",
+    "gulp-uglify": "^1.2.0",
+    "gulp-uglifyjs": "^0.6.2",
+    "gulp-util": "^3.0.1"
+  }
+}

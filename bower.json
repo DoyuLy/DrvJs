@@ -1,0 +1,20 @@
+{
+  "name": "DrvJs",
+  "homepage": "https://github.com/DoyuLy/DrvJs",
+  "authors": [
+    "duyu <duyud@qq.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "drv.js": "^0.1.2"
+  }
+}
